@@ -6,6 +6,8 @@ script:
   - npm install
   - npm test
   - npm run build
+  - yarn precommit
+
 
 deploy:
   provider: surge
