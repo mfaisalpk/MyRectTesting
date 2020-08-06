@@ -3,6 +3,8 @@ node_js:
   - "stable"
 
 script:
+  - npm uninstall -g react-native-cli
+  - npm i -g @react-native-community/cli
   - npm install
   - npm test
   - npm run build
